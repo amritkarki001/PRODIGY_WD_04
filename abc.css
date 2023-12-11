@@ -1,0 +1,237 @@
+/* Reset some default styles */
+
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+
+/* Navbar styles */
+
+.navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    /* Change this color to your preference */
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-link {
+    font-size: 16px;
+    color: #333;
+    margin-right: 20px;
+}
+
+
+/* Hero section styles */
+
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero h2 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+
+/* About section styles */
+
+.ftco-about {
+    background-color: #fff;
+}
+
+.about-info {
+    list-style: none;
+    padding: 0;
+}
+
+.about-info li {
+    margin-bottom: 10px;
+}
+
+
+/* Resume section styles */
+
+.resume-wrap {
+    margin-bottom: 30px;
+}
+
+.resume-wrap h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.resume-wrap .date {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* Services section styles */
+
+.services-1 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.services-1:hover {
+    transform: scale(1.05);
+}
+
+.services-1 h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+/* Skills section styles */
+
+.progress-wrap {
+    margin-bottom: 20px;
+}
+
+.progress-wrap h3 {
+    font-size: 20px;
+}
+
+
+/* Projects section styles */
+
+.ftco-project {
+    background-color: #f8f9fa;
+}
+
+.project {
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.project .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.project h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project span {
+    font-size: 18px;
+}
+
+
+/* Contact section styles */
+
+.contact-section {
+    background-color: #fff;
+}
+
+.contact-form {
+    background-color: #f8f9fa;
+    padding: 30px;
+}
+
+
+/* Footer styles */
+
+.ftco-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.ftco-footer a {
+    color: #fff;
+}
+
+
+/* Social media icons */
+
+.ftco-footer-social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.ftco-footer-social a {
+    font-size: 20px;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+.ftco-footer-social a:hover {
+    color: #007bff;
+    /* Change this color to your preference */
+}
+
+
+/* Loader styles */
+
+#ftco-loader {
+    background-color: #fff;
+}
+
+
+/* Media queries for responsive design */
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        font-size: 20px;
+    }
+    .nav-link {
+        margin-right: 10px;
+    }
+    .hero h1 {
+        font-size: 36px;
+    }
+    .hero h2 {
+        font-size: 18px;
+    }
+    .ftco-about .img {
+        display: none;
+    }
+}
