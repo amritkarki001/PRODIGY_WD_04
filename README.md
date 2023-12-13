@@ -6,7 +6,9 @@ A simple web-stopwatch developed by [Amrit Karki](https://www.linkedin.com/in/am
 ## Project Information
 
 - **I have used the template and customized the template.
-Link to the original Template: https://themewagon.com/themes/free-one-page-bootstrap-4-html5-personal-portfolio-website-template-clark/ 
+
+Here is the Link to the original Template: 
+https://themewagon.com/themes/free-one-page-bootstrap-4-html5-personal-portfolio-website-template-clark/ 
 
 Customized Project Submitted to:
 -   Prodigy Info Tech
